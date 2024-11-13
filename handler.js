@@ -40,7 +40,6 @@ const jokeByType = (type, n) => {
   return randomN(jokes.filter(joke => joke.type === type), n);
 };
 
-const count = Object.keys(jokes).length;
 
 /** 
  * @param {Number} id - joke id
