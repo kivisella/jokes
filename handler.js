@@ -1,8 +1,8 @@
-const jokes = require('./jokes/index.json');
+const jokes = require('./jokes.json');
 
 function count() {
   return jokes.length;
-}
+};
 
 let lastJokeId = 0;
 jokes.forEach(jk => jk.id = ++lastJokeId);
