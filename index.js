@@ -1,7 +1,7 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
 const { types, randomJoke, randomTen, randomSelect, jokeByType, jokeById, count } = require('./handler');
-const jokes = require('./index.json');
+const jokes = require('./jokes/index.json');
 
 function count() {
   return jokes.length;
