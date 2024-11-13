@@ -1,4 +1,4 @@
-const jokes = require('./jokes.json');
+const jokes = require('./jokes/index.json');
 
 function count() {
   return jokes.length;
